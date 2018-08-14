@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1689737291276638}
+  m_IsPrefabParent: 1
+--- !u!1 &1689737291276638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4476835978058476}
+  - component: {fileID: 114574395622879734}
+  m_Layer: 0
+  m_Name: StreetManger (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4476835978058476
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689737291276638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1312182, y: -0.60426897, z: 0.5542172}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114574395622879734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689737291276638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d218de6c87be448a9258b4c012431e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  streetLane60mVertical: {fileID: 1091713618878614, guid: bfc8cce989317df4cb2a85499446ffd7,
+    type: 2}
+  streetCrossXRoads: {fileID: 1314782726504576, guid: 132209f5334ae477fbf2b39254fc0c9f,
+    type: 2}
+  streetTurn90DownLeft: {fileID: 1122659521443458, guid: f18db509edf7fb84c89707b6ff23e0fe,
+    type: 2}
+  streetBump: {fileID: 1734925800059468, guid: 86669b61e897a6e4babcf8d7cd767112, type: 2}
+  streetHole: {fileID: 1862545180375116, guid: da415ac3443ef1647a6432bb53203f30, type: 2}
+  intersection: {fileID: 1314782726504576, guid: 132209f5334ae477fbf2b39254fc0c9f,
+    type: 2}
+  finish_line: {fileID: 1476329139891510, guid: c411c10f0c6a34604aa807048a26ba0a,
+    type: 2}
+  NumberOfBlocks: 20
+  Waypoints: []
+  ObstacleGenerator: {fileID: 1644025562524226, guid: da077fd5cb75ed0469068dd2c2cdd451,
+    type: 2}
+  Rainy: {fileID: 13400000, guid: ef6d9bbac9c81cb4f9c03be76616c2db, type: 2}
+  Normal: {fileID: 13400000, guid: 6f9f9350dfc07aa43855f7571ea90334, type: 2}
+  isRainy: 0
+  Rain: {fileID: 100000, guid: af5d2d14895eaed4dae91d06b8ca164f, type: 2}
+  Car: {fileID: 100000, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 2}
+  Car2: {fileID: 100000, guid: a446810b4feee0342962f7375c74f6a0, type: 2}
+  Car3: {fileID: 100000, guid: 7f9f06fe325089a40a5a101b03f5d4e5, type: 2}
+  Car4: {fileID: 100000, guid: 0cbd6e5da31e96d4ea851a8f4b59aed2, type: 2}
+  carFreq: 8
+  path: {fileID: 0}
+  listt: []
+  lineColor: {r: 1, g: 0, b: 0, a: 0}
+  Roads: []
+  building: {fileID: 100082, guid: 0102ee94384c25d4b9bb15ef9a98875e, type: 3}
+  building2: {fileID: 100002, guid: 21dd3720ab79bce41b977914380560c3, type: 3}
+  sign: {fileID: 1722281667507248, guid: ca4c777fc12d4c043927e5eb80992775, type: 2}

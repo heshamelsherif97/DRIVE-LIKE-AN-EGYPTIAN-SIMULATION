@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c77a9205292e3d4438db8676aff086ce
+timeCreated: 1520139244
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - CrossRoads: {fileID: 1737118372340120, guid: 5841caba743a3d346a6814e8ac8a67f8,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

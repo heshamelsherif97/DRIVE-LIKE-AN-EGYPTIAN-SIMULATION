@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1689737291276638}
+  m_IsPrefabParent: 1
+--- !u!1 &1689737291276638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4476835978058476}
+  - component: {fileID: 114574395622879734}
+  m_Layer: 0
+  m_Name: StreetManger (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4476835978058476
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689737291276638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1312182, y: -0.60426897, z: 0.5542172}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114574395622879734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689737291276638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d218de6c87be448a9258b4c012431e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  streetLane60mVertical: {fileID: 1294476522155336, guid: bfc8cce989317df4cb2a85499446ffd7,
+    type: 2}
+  streetCrossXRoads: {fileID: 1918215852468922, guid: 7d2ed6da40927c0479fc2248317901cc,
+    type: 2}
+  streetTurn90DownLeft: {fileID: 1335842038830748, guid: f18db509edf7fb84c89707b6ff23e0fe,
+    type: 2}
+  JSONFileWirttern: E:\bachelor yarab\sadas\DriveLikeAnEgyptian\test project\Assets\Files
+  AutoGenerte: 1
+  JSONFile: E:\bachelor yarab\sadas\DriveLikeAnEgyptian\test project\Assets\Files
+  NumberOfBlocks: 20
+  Waypoints: []
+  CarAI: {fileID: 1318548613186078, guid: de20d17a4cc53044c8af8ad8adddeb33, type: 2}
+  Car: {fileID: 100000, guid: 0cbd6e5da31e96d4ea851a8f4b59aed2, type: 2}
+  Car2: {fileID: 100000, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 2}
+  Car3: {fileID: 100000, guid: a446810b4feee0342962f7375c74f6a0, type: 2}
+  Car4: {fileID: 100000, guid: 7f9f06fe325089a40a5a101b03f5d4e5, type: 2}
+  Truck: {fileID: 122606, guid: 9decbb5c4e8c84e3bbe0de111aa0c4f7, type: 2}
+  carFreq: 7
+  path: {fileID: 0}
+  listt: []
+  lineColor: {r: 0, g: 0, b: 0, a: 0}
+  CarPositions: []
+  CarRotations: []
+  building: {fileID: 100082, guid: 0102ee94384c25d4b9bb15ef9a98875e, type: 3}
+  building2: {fileID: 100002, guid: 20362ed82e6516049b1a1103c5360673, type: 3}
+  sign: {fileID: 100010, guid: 91f328f295ddd5a4690e796e57dd2051, type: 3}
+  traffic: []
+  signs: []
